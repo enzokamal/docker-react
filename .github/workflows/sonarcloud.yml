@@ -23,6 +23,6 @@ jobs:
           args:
             -Dsonar.projectKey=enzokamal_docker-react
             -Dsonar.organization=Kamal_Tamang
-            -Dsonar.verbose=true
-            -X
+            # -Dsonar.verbose=true
+            # -X
           projectBaseDir: .
