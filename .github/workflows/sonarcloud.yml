@@ -21,6 +21,6 @@ jobs:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}   # Correct reference to the secret
         with:
           args:
-            -Dsonar.projectKey=enzokamal
+            -Dsonar.projectKey=enzokamal_docker-react
             -Dsonar.organization=Kamal_Tamang
           projectBaseDir: .
